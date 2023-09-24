@@ -1,5 +1,5 @@
-						 	POWERSHELL vs BASH
-			[This is an external link to genome.gov](https://www.genome.gov/)
+								POWERSHELL VS BASH
+								      [GOTO](https://www.javatpoint.com/powershell-vs-bash-shell)
 | PowerShell                                                                                                       | Bash Shell                                                                                          |
 |------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1. PowerShell is a command shell and associated scripting language for the majority of windows operating system. | 2. Bash is the command shell and scripting language for the majority of the Linux operating system. |
