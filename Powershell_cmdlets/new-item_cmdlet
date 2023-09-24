@@ -1,0 +1,9 @@
+#New-Item Cmdlet in PowerShell creates the files and folders in the file system
+#Example 1: Creates a file in the present working directory
+New-Item myfile.txt -ItemType file
+#Example 2: Creates a file and add the content to that file
+New-Item newfile -Value "Myfirst new file"
+#Example 3: Create a directory
+New-Item -Path "c:\users\windows\desktop" -Name "myfolder" -ItemType Directory
+#Example 4: Create multiple files
+New-Item -Path "D:\file1", "D:\file2" -itemtype file

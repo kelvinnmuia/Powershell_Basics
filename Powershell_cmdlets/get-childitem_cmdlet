@@ -1,0 +1,9 @@
+#The cmdlet enable user to obtain child items in a specified location similar to dir or ls commands
+Example 1: To get the child items in the current location or directory
+get-childitem
+Example2: To get the child item for a given path
+get-childitem -path 'c:\users'
+Example 3: To get the child items in the current directory and its subdirectories
+get-childitem -Recurse
+Example 4: To get the items using the Depth parameter which determines the subdirectory level to include in the recursion
+get-childitem -path 'c:\' -Depth 1

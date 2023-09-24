@@ -1,0 +1,5 @@
+#The Get-Location cmdlet gets the information about the current working directory or a location stack
+#Example1: To display a current drive location similar to pwd in linux
+Get-Location
+#find the current location on a C:\ drive
+Get-Location -PSDrive c

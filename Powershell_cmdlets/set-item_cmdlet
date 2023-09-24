@@ -1,0 +1,3 @@
+#Set-Item cmdlet changes the value of an item to the value specified in the command
+#Example 1: To create an alias
+Set-Item -Path alias:np -Value "c:\windows\notepad.exe"

@@ -1,0 +1,7 @@
+#Set-Location cmdlet sets the current PowerShell working location to a specified location similar to cd, chdir in linux
+#Example 1: To set the current location
+Set-Location -Path "c:\"
+#Example 2: To set the current location and show that location
+Set-Location -Path "c:\" -PassThru
+#Example 3: To set the current location to another drive
+Set-Location D:

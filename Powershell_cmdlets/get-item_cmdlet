@@ -1,0 +1,13 @@
+#The Get-Item cmdlet gets the items at a particular location
+#Example 1: To get the current location
+get-item .
+Example 2: To get all the items in the current location
+get-item *
+Example 3: To get all the items in the specified directory or location
+get-item C:\*
+Example 4: To get a property in the specified location
+(get-item C:\).LastAccessTime
+Example 5: To get all the properties of a given location or directory
+(get-item C:\) | Get-Member
+Example 6: To display the content of a registry key
+get-item HKLM:...

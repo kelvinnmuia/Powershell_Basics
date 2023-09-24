@@ -1,0 +1,9 @@
+#The Copy-Item cmdlet copies an item form one location to another location within a namespace
+#Example 1: Copy a file to a specified location
+Copy-Item "new-item_cmdlet" -Destination "D:\BACKUP"
+#Example 2: Copy the content of a directory to a new directory
+Copy-Item -Path "C:\Users" -Destination "D:\Systeminfo" -Recurse
+#Example 3: Copy the content of a directory to an existing directory
+Copy-Item -Path "C:\Users" -Destination "D:\Systeminfo" -Recurse
+#Example 4: Copy the file to a given directory and rename that file
+Copy-Item -Path "C:\file1.txt" Destination "D:\bkp\fl1.txt"
